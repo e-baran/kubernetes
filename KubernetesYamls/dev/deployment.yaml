@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp-html
-        image: baran6703/baranhub:v$DOCKER_BUILD_NUMBER
+        image: baran6703/homework:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80
